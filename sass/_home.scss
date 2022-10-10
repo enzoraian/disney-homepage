@@ -45,5 +45,15 @@ main {
         margin-left: auto;
       }
     }
+
+    @include responsive(991px) {
+      .text {
+        p {
+          max-width: 80%;
+          margin-left: auto;
+        }
+      }
+    }
+
   }
 }

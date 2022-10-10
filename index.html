@@ -21,47 +21,57 @@
   <main>
 
     <!--HEADER-->
-    <header>
+    <header class="js-header">
       <div class="container">
-        <!--LOGO-->
-        <a href="./" class="logo">
-          <img src="img/disney-logo.png" alt="">
-        </a>
+        <div class="container-logo">
+          <!--LOGO-->
+          <a href="./" class="logo">
+            <img src="img/disney-logo.png" alt="">
+          </a>
 
-        <!--NAV-->
-        <nav>
-          <ul>
-            <li>
-              <img src="img/icon-home.svg" alt="">
-              <p>Home</p>
-            </li>
-            <li>
-              <img src="img/icon-search.svg" alt="">
-              <p>Pesquisar</p>
-            </li>
-            <li>
-              <img src="img/icon-watched.svg" alt="">
-              <p>Assistidos</p>
-            </li>
-            <li>
-              <img src="img/icon-originals.svg" alt="">
-              <p>Originais</p>
-            </li>
-            <li>
-              <img src="img/icon-movies.svg" alt="">
-              <p>Filmes</p>
-            </li>
-            <li>
-              <img src="img/icon-series.svg  " alt="">
-              <p>Séries</p>
-            </li>
-          </ul>
-        </nav>
+          <!--NAV-->
+          <nav>
+            <img class="logo-mobile" src="img/disney-logo.png" alt="">
+            <ul>
+              <li>
+                <img src="img/icon-home.svg" alt="">
+                <p>Home</p>
+              </li>
+              <li>
+                <img src="img/icon-search.svg" alt="">
+                <p>Pesquisar</p>
+              </li>
+              <li>
+                <img src="img/icon-watched.svg" alt="">
+                <p>Assistidos</p>
+              </li>
+              <li>
+                <img src="img/icon-originals.svg" alt="">
+                <p>Originais</p>
+              </li>
+              <li>
+                <img src="img/icon-movies.svg" alt="">
+                <p>Filmes</p>
+              </li>
+              <li>
+                <img src="img/icon-series.svg  " alt="">
+                <p>Séries</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
         <!--PROFILE-->
-        <div class="profile">
-          <p>Profile</p>
-          <img src="img/profile-pic.png" alt="">
+        <div class="container-profile">
+          <div class="profile">
+            <p>Mulan</p>
+            <img src="img/profile-pic.png" alt="">
+          </div>
+
+          <button class="btn-menu js-btn-menu">
+            <img class="btn-open" src="img/menu-open.svg" alt="">
+            <img class="btn-close" src="img/menu-close.svg" alt="">
+          </button>
         </div>
       </div>
     </header>
@@ -78,5 +88,6 @@
     </section>
   </main>
 </body>
+<script src="js/script.js"></script>
 
 </html>
