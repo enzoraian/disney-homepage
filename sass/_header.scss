@@ -1,0 +1,32 @@
+main {
+  header {
+    .container {
+      @include flex (row, space-between, center);
+    }
+
+    nav {
+      ul {
+        @include flex (row, flex-start, center);
+        gap: 2rem;
+
+        li {
+          @include flex (row, flex-start, center);
+          gap: 1rem;
+          color: $white;
+
+        }
+      }
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+
+      p {
+        color: $white;
+        font-weight: 500;
+      }
+    }
+  }
+}
